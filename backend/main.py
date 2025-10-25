@@ -82,9 +82,10 @@ async def uploadfile(file12: UploadFile):
         print("inside try except block")
         file_path=f"../saved_KYC_Files/{file12.filename}"
         with open(file_path, "wb") as f:
-
+            e=file12.file.read()
             f.write(file12.file.read())
             f.close()
+            print("Writing in the file path",e)
             print("File uploaded in path")
         with open(file_path,"r") as f1:
             

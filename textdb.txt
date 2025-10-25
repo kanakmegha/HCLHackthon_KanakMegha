@@ -54,3 +54,6 @@ Name :string
 Name :string
  Email:string3
  Password :string
+Name :string
+ Email:string3
+ Password :string
