@@ -11,3 +11,7 @@ fillinfo
 upload
 login
 # HCLHackthon_KanakMegha
+
+
+#Note
+Due to time constraints i was still in the process of debugging.Through the Swagger UI every endpoint is working correctly but through the streamlit the file upload is giiving 422 
