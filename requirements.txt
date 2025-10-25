@@ -1,0 +1,5 @@
+model
+fastapi
+uvicorn
+pydantic
+asyncio

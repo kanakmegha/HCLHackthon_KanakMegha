@@ -1,0 +1,3 @@
+Name :string
+ Email:string3
+ Password :string
